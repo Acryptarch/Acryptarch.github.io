@@ -1,48 +1,31 @@
-// TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'RPOEMS',
+    subtitle: '2021 Personal Project',
+    image: '/images/projects/rpoem.png',
+    date: '2021-07-20',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Rpoems is a simple python library that uses psaw (PushiftIO wrapper) '
+      + 'and various different tactics to generate poetry '
+      + 'from a corpus of reddit comments '
+      + 'which are defined by various parameters.',
   },
+
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'Prime Sieve Benchmarker',
+    subtitle: '2020 Personal Project',
+    image: '/images/projects/sieve.jpeg',
+    date: '2020-06-20',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'The purpose of this project is to benchmark and measure '
+      + 'different time variations of the Sieve of Erasthoneses. '
+      + ' It uses many methods including but not limited to list slicing, '
+      + 'vectorization, and a speed up array operations '
+      + 'with the use of numpy. '
+      + 'It is also used to benchmark your own code against'
+      + 'common but efficient prime algorithms.',
   },
-  {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
-    desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
-  },
-  {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
-  },
+
 ];
 
 export default data;
